@@ -149,7 +149,7 @@ a{
     padding: 20px 30px;
 }
 .nav-menu a{
-    color:#666;
+    color:#898989;
 }
 .nav-menu a:hover{
     color:#fff;
@@ -253,9 +253,11 @@ a{
 
 
 
+
 .work-small img{
     object-fit: cover;
     width:100%;
+    height: 350px;
 }
 .work-block{
     margin-bottom: 30px;
@@ -280,10 +282,10 @@ a{
 .caps-hdr{
     text-transform: uppercase;
     letter-spacing: 5px;
-    color:#666;
+    color:#898989;
     font-size: 12px;
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .profile-block-content{
@@ -390,7 +392,19 @@ a{
 .modal-work-details-top-bner{
     width:100%;
     height: 55vh;
-    object-fit: cover;
+    object-fit: none;
+}
+.namma-metro{
+    background-color: #FFB3C8;
+}
+.novelty{
+    background-color: #FFE9EF;
+}
+.pmamhcm{
+    background-color: #BBCDF5;
+}
+.uuru-app, .uuru-web{
+    background-color: #C9F1C6;
 }
 .modal-work-summary{
     background-color: #222;
@@ -427,5 +441,18 @@ a{
 }
 .thm-btn-close:hover{
     background-color: #666;
+  }
+ .thm-badges{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+ }
+  .thm-badges > span{
+    background-color: #383838;
+    color:#fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 500;
   }
 
